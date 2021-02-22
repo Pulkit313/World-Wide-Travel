@@ -1,0 +1,88 @@
+.pagination{
+    align-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.pagination > li > a
+{
+    background-color: black;
+    color: #F3F3F3 ;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #5A4181 !Important;
+    border: solid 1px #5A4181 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #5A4181 !Important;
+    border: solid 1px #5A4181;
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: auto;
+}
+.footer-links {
+    margin-top: auto;
+    background: #131313;
+    padding: 2.5em 0;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+}
+.footer-links-social {
+    margin-bottom: 1.5em;
+}
+
+.footter-links-social ol, ul {
+    list-style: none;
+
+}
+.footer-links-social li {
+    display: inline-block;
+    margin: 0 25px;
+}
+.resize{
+  width:30px;
+  height: auto;
+}
+.footer-links-menu li{
+  display: inline-block;
+  margin: 0 10px;
+      color: #fff;
+}
+.footer-links-menu a{
+  color: grey;
+  text-decoration: none;
+}
+.footer-links-menu a:hover{
+  color: white;
+  text-decoration: none;
+}
+.footer-legal {
+    margin-top: -15px;
+    background: #000;
+    color: #aaa;
+    font-size: 13px;
+    font-size: 15px;
+    height: auto;
+    bottom: 0;
+}
